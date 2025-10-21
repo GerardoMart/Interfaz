@@ -1,0 +1,78 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título con fuente especial */
+h1 {
+    color: #ff6f00;
+    font-family: 'Bitcount Grid Single', sans-serif;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/* Párrafos */
+p {
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.5;
+}
+
+/* Imagen centrada */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
+
+/* Botón estilo YouTube */
+.youtube-btn {
+    display: inline-block;
+    background-color: #ff6f00;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Navegación */
+.nav {
+    margin-top: 40px;
+}
+
+.nav a {
+    color: #ffffff;
+    margin: 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* Video centrado */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
