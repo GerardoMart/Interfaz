@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 4 : Sitio web con hoja de estilo y script externo (JavaScript y CSS)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tarea 4</h1>
+
+    <div class="contenedor-personaje">
+        <img id="personaje" src="img3/MakotoYuki.png" alt="Personaje principal">
+    </div>
+
+    <div class="botones">
+        <img src="img3/DeathCard.png" alt="Power 1" onclick="cambiarPower(1)">
+        <img src="img3/JudgementCard.png" alt="Power 2" onclick="cambiarPower(2)">
+        <img src="img3/FoolCard.png" alt="Power 3" onclick="cambiarPower(3)">
+        <img src="img3/DevilCard.png" alt="Power 4" onclick="cambiarPower(4)">
+    </div>
+
+    <div class="boton-reset" id="botonReset">
+        <button onclick="restaurarBase()">Volver al estado base</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
